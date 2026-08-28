@@ -22,12 +22,13 @@ public abstract class abstractEmp {
 
 // Child class
 class Developer extends abstractEmp {
-
+    
     Developer(int id, String name) {
         super(id, name);
     }
 
     // Providee implementation of abstract method
+    @Override
     void work() {
         System.out.println(name + " is writing code.");
     }
