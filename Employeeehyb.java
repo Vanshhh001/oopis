@@ -8,7 +8,7 @@ interface working{
     void work();
 }
 static class Dev extends Employeeehyb implements working{
-
+//@Override used when implementing a method exist in parent class
 public void work(){
     System.out.println("dev work");
 }
@@ -21,7 +21,7 @@ static class senier extends Dev{
 }
 
 static class Manager extends Employeeehyb implements working{
-    
+   // @Override
     public void work(){
         System.out.println("give task");
     }
